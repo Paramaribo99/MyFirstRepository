@@ -19,3 +19,5 @@ class Cartoon extends Drawing {
         Cartoon x = new Cartoon();
     }
 }
+
+//wrong code

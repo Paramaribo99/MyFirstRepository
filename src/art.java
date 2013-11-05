@@ -18,10 +18,10 @@ class Cartoon extends Drawing {
     public static void main(String[] args) {
         Cartoon x = new Cartoon();
 }
- class Monography extends Cartoon {
-    public Cartoon() { System.out.println("Monography constructor"); } // Constructor of the monography class which extends the Cartoon class, will be called 4
+ class Lithography extends Cartoon {
+    public Cartoon() { System.out.println("Lithography constructor"); } // Constructor of the lithography class which extends the Cartoon class, will be called 4
     public static void main(String[] args) {
-        Monography x = new Monography();
+        Lithography x = new Lithography();
     }   
 }
 

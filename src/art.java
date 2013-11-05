@@ -17,7 +17,12 @@ class Cartoon extends Drawing {
     public Cartoon() { System.out.println("Cartoon constructor"); } // Constructor of the cartoon class which extends the Drawing class, will be called 3
     public static void main(String[] args) {
         Cartoon x = new Cartoon();
-    }
+}
+ class Lithography extends Cartoon {
+    public Cartoon() { System.out.println("Lithography constructor"); } // Constructor of the lithography class which extends the Cartoon class, will be called 4
+    public static void main(String[] args) {
+        Lithography x = new Lithography();
+    }   
 }
 
 //wrong code
